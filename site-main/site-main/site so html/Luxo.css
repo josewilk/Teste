@@ -1,0 +1,95 @@
+body {
+    background-color: #EBEBEB;
+}
+
+header {
+    background-color: #21272B;
+
+}
+
+.container { /* CONTAINER DA BARRA */
+    display: flex;
+    align-items: flex;
+}
+
+.menu { /* MENU BARRA TEXTOS */
+
+    text-align: right;
+    justify-content: right;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0;
+    
+}
+
+.conteudo { /* LOGO */
+    display: flex;
+    align-items: center;
+}
+
+.conteudo img {
+    width: 80x; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 10px; /* Espaçamento entre a imagem e o título */
+}
+
+.conteudo div { /* LOGO COMPLETA */
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo h1 { /* Luxo */
+    color: #1BB4E8;
+    margin: 0;
+}
+
+.conteudo h2 { /* Alguel de iates */
+    color: #EBEBEB;
+    margin: 0;
+}
+
+.conteudo p {
+    margin-top: 2px; /* Espaçamento entre o título e o parágrafo */
+}
+
+#inicial {
+
+    color: #1BB4E8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none
+}
+
+#aluguel {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none
+}
+
+#destinos {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none
+}
+
+#tripulacao {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none
+}
+
+#contato {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none
+}
